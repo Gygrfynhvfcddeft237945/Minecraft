@@ -12,6 +12,9 @@ This is an archived repo, no support will be offered, and no bugs will be fixed.
 * Java 8 runtime.
 * Desired target plugin jar file.
 ## How To Compile
+Click on the big green button that says code and go to codepaces.
+Click "Create Codespace On Main."
+Once you have created the Codespace
 ```bash
 mvn clean package
 ```
