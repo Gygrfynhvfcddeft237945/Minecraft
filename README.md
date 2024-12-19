@@ -12,9 +12,9 @@ This is an archived repo, no support will be offered, and no bugs will be fixed.
 * Java 8 runtime.
 * Desired target plugin jar file.
 ## How To Compile
-'''bash
+```bash
 mvn clean package
-'''bash
+```
 ## GUI Usage:
 * Run backdoor-(version).jar.
 * Select desired plugin file.
