@@ -14,10 +14,15 @@ This is an archived repo, no support will be offered, and no bugs will be fixed.
 ## How To Compile
 Click on the big green button that says code and go to codepaces.
 Click "Create Codespace On Main."
-Once you have created the Codespace
+Once you have created the Codespace go into the codespace and paste this into the terminal:
 ```bash
 mvn clean package
 ```
+After you have pasted it in the terminal click enter and wait until it finishes compiling.
+A "target" directory should appear on the left bar, click on it.
+The files inside should be some folders and 2 jar files, Originalbackdoor(Version).jar, and backdoor(Version).jar.
+right click on either one and download it.
+
 ## GUI Usage:
 * Run backdoor-(version).jar.
 * Select desired plugin file.
