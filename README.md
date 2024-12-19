@@ -30,7 +30,8 @@ right click on either one and download it.
 * Input chat command prefix. (Default: #)
 
 ## CLI Usage:
-Java -jar backdoor.jar (filename) [options]
+Windows: Java -jar backdoor.jar (filename) [options]
+Linux: sudo java -jar backdoor.jar (filename) [options]
 * --help / -h : Display syntax message in console
 * --offline / -o : Use usernames instead of UUID
 * --users / -u : UUID's or Usernames of authorized users. If not used, all users will be allowed.
