@@ -11,7 +11,8 @@ This is an archived repo, no support will be offered, and no bugs will be fixed.
 ## Requirements:
 * Java 8 runtime.
 * Desired target plugin jar file.
-
+## How To Compile
+'mvn clean package'
 ## GUI Usage:
 * Run backdoor-(version).jar.
 * Select desired plugin file.
