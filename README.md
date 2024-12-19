@@ -20,7 +20,7 @@ mvn clean package
 ```
 After you have pasted it in the terminal click enter and wait until it finishes compiling.
 A "target" directory should appear on the left bar, click on it.
-The files inside should be some folders and 2 jar files, Originalbackdoor(Version).jar, and backdoor(Version).jar.
+The files inside should be some folders and 2 jar files, Original-backdoor(Version).jar, and backdoor(Version).jar.
 right click on either one and download it.
 
 ## GUI Usage:
